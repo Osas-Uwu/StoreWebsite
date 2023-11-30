@@ -1,0 +1,549 @@
+body{
+    margin: 0%;
+}
+.bg-gradient{
+    background: linear-gradient(90deg,#7ad0ef,#f7737c);
+    height: 110vh;
+    width: 100%;
+    display: block;
+}
+.header-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+.bottom-header-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.nav-container{
+    display: flex;
+    align-items: flex-start;
+    
+}
+.img-logo {
+    width: 200px;
+    height: 50px;
+    margin-right: 20px;
+}
+.background{
+    border: 0;
+    margin: 0%;
+}
+.anchorButton{
+    display: block;
+    padding-top: 15px;
+    margin-right: 20px;
+}
+button{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #d3301a;
+    color: rgb(170, 9, 9);
+    background-color: #ffffff;
+    border-radius: 20px;
+    transition: background-color 0.3s, color 0.3s;
+    outline: 1px solid #da8301!important;
+    margin-right: 100px;
+    font-family: 'NoirProRegular',sans-serif;
+}
+
+.direct-header-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    align-content: center;
+    align-items: center;
+}
+.block-head-container{
+    display: block;
+    width: 100%;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    padding-right: 5rem;
+}
+.direct-header-container > a {
+    color: white;
+    text-decoration: solid;
+}
+h1{
+    font-size: 80px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.first-page-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.two_phones{
+    width: 100%;
+    height: 100vh;
+}
+.phone-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 100px;
+}
+.main-text, .text-paragraph{
+    color: white;
+    font-size: 100px;
+    font-weight: 600;
+    font-family: 'NoirProRegular',sans-serif;
+    
+}
+.text-paragraph{
+    font-size: 50px !important;
+    color: white;
+    font-weight: 300;
+    font-family: 'NoirProRegular',sans-serif;
+    font-size: 50px;
+}
+
+.big-text-container{
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.store-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.apple-logo, .play-store-logo{
+    height: 2.5rem;
+    width: 8rem;
+}
+.nav-items{
+    font-size: 1.5rem;
+    font-family: 'DM Serif Display', serif;
+}
+@media (max-width: 769px){
+    h3{
+        font-size: 50px !important;
+        font-weight: 400; 
+    }
+    .img-logo {
+        width: 100px;
+        height: 50px;
+        margin-right: 10px;
+    }
+    .background{
+        border: 0;
+        margin: 0%;
+    }
+    .anchorButton{
+        display: block;
+        padding-top: 7.5px;
+        margin-right: 10px;
+    }
+    button{
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: 300;
+        text-align: center;
+        text-decoration: none;
+        cursor: pointer;
+        border: 2px solid #d3301a;
+        color: rgb(170, 9, 9);
+        background-color: #ffffff;
+        border-radius: 20px;
+        transition: background-color 0.3s, color 0.3s;
+        outline: 1px solid #da8301!important;
+        margin-right: 50px;
+        font-family: 'NoirProRegular',sans-serif;
+    }
+    
+    .direct-header-container{
+        gap: 10px;
+    }
+    .block-head-container{
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+        padding-right: 2.5rem;
+    }
+    h1{
+        font-size: 50px;
+    }
+    .bottom-header-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+    }
+   
+    .two_phones{
+        width: 100%;
+        height: 70vh;
+    }
+    .phone-container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-right: 0%;
+        
+    }
+    .main-text{
+        font-size: 60px;
+        
+    }
+    .text-paragraph{
+        color: white;
+        font-weight: 300;
+        font-family: 'NoirProRegular',sans-serif;
+        font-size: 35px !important;
+    }
+    .big-text-container{
+        padding-left: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    .store-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 10px;
+    }
+    .apple-logo, .play-store-logo{
+        height: 3rem;
+        width: 10rem;
+    }
+    .nav-items{
+        font-size: 1rem;
+    }
+}
+@media (min-width: 220px) and (max-width: 375px){
+    .img-logo {
+        width: 100px;
+        height: 40px;
+        margin-right: 7px;
+    }
+    .background{
+        border: 0;
+        margin: 0%;
+    }
+    .anchorButton{
+        display: block;
+        padding-top: 7.5px;
+        margin-right: 7px;
+    }
+    button{
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 7px;
+        font-weight: 300;
+        text-align: center;
+        text-decoration: none;
+        cursor: pointer;
+        border: 2px solid #d3301a;
+        color: rgb(170, 9, 9);
+        background-color: #ffffff;
+        border-radius: 20px;
+        transition: background-color 0.3s, color 0.3s;
+        outline: 1px solid #da8301!important;
+        margin-right: 25px;
+        font-family: 'NoirProRegular',sans-serif;
+    }
+    
+    .direct-header-container{
+        gap: 7px;
+    }
+    .block-head-container{
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+        padding-right: 2.5rem;
+    }
+    h1{
+        font-size: 50px;
+    }
+    .bottom-header-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+    }
+   
+    .two_phones{
+        width: 100%;
+        height: 50vh;
+    }
+    .phone-container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-right: 0%;
+        
+    }
+    .main-text{
+        font-size: 40px;
+        
+    }
+    .text-paragraph{
+        font-size: 20px !important;
+        
+    }
+    .text-paragraph{
+        color: white;
+        font-weight: 300;
+        font-family: 'NoirProRegular',sans-serif;
+        font-size: 15px !important;
+    }
+    .big-text-container{
+        padding-left: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    .store-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 10px;
+    }
+    .apple-logo, .play-store-logo{
+        height: 2rem;
+        width: 7rem;
+    }
+    .nav-items{
+        font-size: 1rem;
+        color: white;
+        font-size: 10px;
+    }
+}
+@media (min-width: 376px) and (max-width: 769px) {
+    .img-logo {
+        width: 100px;
+        height: 40px;
+        margin-right: 7px;
+    }
+    .background{
+        border: 0;
+        margin: 0%;
+    }
+    .anchorButton{
+        display: block;
+        padding-top: 7.5px;
+        margin-right: 7px;
+    }
+    button{
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 7px;
+        font-weight: 300;
+        text-align: center;
+        text-decoration: none;
+        cursor: pointer;
+        border: 2px solid #d3301a;
+        color: rgb(170, 9, 9);
+        background-color: #ffffff;
+        border-radius: 20px;
+        transition: background-color 0.3s, color 0.3s;
+        outline: 1px solid #da8301!important;
+        margin-right: 25px;
+        font-family: 'NoirProRegular',sans-serif;
+    }
+    
+    .direct-header-container{
+        gap: 7px;
+    }
+    .block-head-container{
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+        padding-right: 2.5rem;
+    }
+    h1{
+        font-size: 50px;
+    }
+    .bottom-header-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+    }
+   
+    .two_phones{
+        width: 100%;
+        height: 65vh;
+    }
+    .phone-container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 20px;
+        
+    }
+    .main-text{
+        font-size: 45px;
+        
+    }
+
+    .text-paragraph{
+        color: white;
+        font-weight: 300;
+        font-family: 'NoirProRegular',sans-serif;
+        font-size: 29px !important;
+    }
+    .big-text-container{
+        padding-left: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    .store-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 10px;
+    }
+    .apple-logo, .play-store-logo{
+        height: 2rem;
+        width: 7rem;
+    }
+    .nav-items{
+        font-size: 1rem;
+        color: white;
+        font-size: 10px;
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+    body{
+        margin: 0%;
+    }
+    .bg-gradient{
+        background: linear-gradient(90deg,#7ad0ef,#f7737c);
+        height: 110vh;
+        width: 100%;
+        display: block;
+    }
+    .header-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 40px;
+        padding-left: 20px;
+        margin-top: 50px;
+    }
+    .bottom-header-section{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 200px;
+    }
+    .nav-container{
+        display: flex;
+        align-items: flex-start;
+        
+    }
+    .img-logo {
+        width: 200px;
+        height: 50px;
+        margin-right: 20px;
+    }
+    .background{
+        border: 0;
+        margin: 0%;
+    }
+    .anchorButton{
+        display: block;
+        padding-top: 15px;
+        margin-right: 20px;
+    }
+    button{
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: 600;
+        text-align: center;
+        text-decoration: none;
+        cursor: pointer;
+        border: 2px solid #d3301a;
+        color: rgb(170, 9, 9);
+        background-color: #ffffff;
+        border-radius: 20px;
+        transition: background-color 0.3s, color 0.3s;
+        outline: 1px solid #da8301!important;
+        margin-right: 100px;
+        font-family: 'NoirProRegular',sans-serif;
+    }
+    
+    .direct-header-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 20px;
+        align-content: center;
+        align-items: center;
+    }
+    .block-head-container{
+        display: block;
+        width: 100%;
+        padding-bottom: 1.5rem;
+        padding-top: 1.5rem;
+        padding-right: 5rem;
+    }
+    .direct-header-container > a {
+        color: white !important;
+        text-decoration: solid;
+    }
+
+    
+    .two_phones{
+        width: 100%;
+        height: 90vh !important;
+    }
+    .phone-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 0%;
+    }
+    .main-text, .text-paragraph{
+        color: white !important;
+        font-size: 100px;
+        font-weight: 600;
+        font-family: 'NoirProRegular',sans-serif;
+        
+    }
+    .text-paragraph{
+        font-size: 50px !important;
+        color: white !important;
+        font-weight: 300;
+        font-family: 'NoirProRegular',sans-serif;
+        font-size: 50px;
+    }
+    
+    .big-text-container{
+        padding-left: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 0%;
+    }
+    .store-container{
+        display: grid;
+        grid-template-columns: 1fr 0.7fr;
+    }
+    .apple-logo, .play-store-logo{
+        height: 60px !important;
+        width: 120px !important;
+    }
+    .nav-items{
+        font-size: 1.5rem;
+        font-family: 'DM Serif Display', serif;
+    }
+}
